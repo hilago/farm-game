@@ -1,0 +1,42 @@
+<!doctype HTML>
+<html>
+<head>
+
+<title></title>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <!--<script>
+  
+  $(document).ready(function()
+ {$("p").click(function(){
+    $(this).hide();
+ 
+ });
+ });
+  
+  
+  </script>-->
+
+</head>
+ 
+ <body>
+ 
+ <p id ="p1">Hover me!</p>
+ <p id ="p2">Click me!</p>
+ <p id ="p3">Double click me!</p>
+ <p id ="p4">Leave me alone!</p>
+ <p>Press [enter]</p>
+ 
+ <script>
+ $("#p1").hover(function(){$(this).hide();});
+ $("#p2").click(function(){$(this).hide();});
+ $("#p3").dblclick(function(){$(this).hide();});
+ $("#p4").mouseout(function(){$(this).hide();});
+ </script>
+ 
+ </body> 
+  
+</html>

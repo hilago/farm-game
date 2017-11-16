@@ -1,0 +1,103 @@
+#wrapperIimg{	
+background-image: url('sky.jpg');
+
+min-width: 350px;
+background-repeat: no-repeat;
+display:flex;
+box-sizing:border-box;
+height:750;	
+
+}
+
+.theWrapper{
+height:620px;	
+display:flex;
+flex-flow:column;
+flex-grow:1;
+flex-shrink:1;
+box-sizing:border-box;
+		
+}
+
+
+/*wrapper one(header)*/
+.one{display:flex;
+/*code for theWrapper: */
+flex-basis:20%;
+flex-grow:1;
+flex-shrink:1;	
+box-sizing:border-box;
+
+}
+.header{
+	box-sizing:border-box;
+	flex-basis:100%;
+	flex-grow:1;
+flex-shrink:1;
+		
+}
+h1
+{
+ width:40%;
+ margin-left:130px;
+ margin-top:60px;
+ font-size:300%;
+ 
+ }
+
+/*wrapper two(buttons&main)*/
+.two{	
+box-sizing:border-box;
+display:flex;
+flex-flow:row;
+/*code for theWrapper: */
+flex-basis:70%;
+flex-grow:1;
+flex-shrink:1;
+	
+}
+.button{
+box-sizing:border-box;	
+flex:1;	
+flex-grow:1;
+flex-shrink:1;	
+height:60px;
+margin-top:200px;
+
+}
+
+.anim{
+box-sizing:border-box;
+flex:5;	
+flex-grow:1;
+flex-shrink:1;	
+padding-top:50px;
+
+}
+
+
+
+/*wrapper three(footer)*/
+.three{
+	box-sizing:border-box;
+display:flex;
+/*code for theWrapper: */	
+flex-basis:10%;	
+
+}
+.footer{flex-basis:100%; box-sizing:border-box;}
+.footer p
+{
+ background:gray;
+ width:60%;
+ margin-left:80px;
+ border:1px solid black;
+ 
+ }
+
+
+
+#cow{margin-top:102px;}
+
+
+
