@@ -15,17 +15,17 @@
 	
 	<div class = "wrapper two">
 	<div class = "button backward1">
-	<a href = "b.php"><img class ="bbw" src ="left.png"></a>
+	<a href = "b.php"><img class ="bbw" src ="img/left.png"></a>
 	</div>
 
     <div class = "box anim" id="an">
-    <img id="dog" src="dog.png">
-	<audio id="audiofile" src="dog.mp3"></audio>
+    <img id="dog" src="img/dog.png">
+	<audio id="audiofile" src="sounds/dog.mp3"></audio>
     </div>
 	
 	
 	<div class = "button forward1">
-	<a href = "c.php"><img class ="ffw" src ="right.png" ></a>
+	<a href = "c.php"><img class ="ffw" src ="img/right.png" ></a>
 	</div>
 	
 	</div>

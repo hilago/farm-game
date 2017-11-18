@@ -11,7 +11,7 @@
  
  
 #wrapperIimg{	
-background-image: url('skyD.jpg');
+background-image: url('img/skyD.jpg');
                                             height: 100%; min-height: 100%;
 min-width:200px;                                                                                      
 background-repeat: no-repeat;
@@ -140,7 +140,7 @@ flex-basis:10%;
                                             background-size:cover;
                                              height: 100%; min-height: 100%;
 	
-background-image: url('skyD.jpg');
+background-image: url('img/skyD.jpg');
 
 min-width:412px;
 max-width:1900px;
